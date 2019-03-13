@@ -1,5 +1,7 @@
 package hsn.com.tripactions;
 
+import android.util.Log;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,6 +31,7 @@ public class Story {
                         this.thumbnail =(String) smallimg.opt("url");
                 } catch (JSONException e) {
                     this.thumbnail = DEFAULT_THUMB;
+                    Log.d("","");
                 }
             }
             if (stories.length()>1) {
@@ -45,7 +48,7 @@ public class Story {
         this.thumbnail = DEFAULT_THUMB ;
     }
 
-    public String getShort_url() {
+    public String getShgort_url() {
         return short_url;
     }
 
