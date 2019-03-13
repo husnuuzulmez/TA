@@ -8,7 +8,7 @@ import android.view.View;
 
     public class MyRvItemTouchListener implements RecyclerView.OnItemTouchListener {
 
-        //GestureDetector erferferfrrerferf
+        //GestureDetector ABCCCCCC
         GestureDetector gestureDetector;
         private RecyclerViewItemClickListener clickListener;
 
