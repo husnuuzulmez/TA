@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                 Story story =  viewmodel.getReplist().getValue().get(position);
                 intent.putExtra("title" ,story.getTitle() );
                 intent.putExtra("largethumbnail" ,story.getLargethumbnail() );
-                intent.putExtra("url" ,story.getShort_url() );
+                intent.putExtra("url" ,story.getShgort_url() );
                 startActivity(intent);
             }
 
