@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("url" ,story.getShgort_url() );
                 //heytyttt
                 //heyooo1236
+                //abc123
                 startActivity(intent);
             }
 
