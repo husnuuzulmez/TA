@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 intent.putExtra("title" ,story.getTitle() );
                 intent.putExtra("largethumbnail" ,story.getLargethumbnail() );
                 intent.putExtra("url" ,story.getShgort_url() );
+                //heytyttt
                 startActivity(intent);
             }
 
